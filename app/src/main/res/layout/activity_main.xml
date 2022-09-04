@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/edt1"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/edt2"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txt3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/edt3"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:onClick="alta"
+        android:text="@string/btn1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:onClick="consultaporcodigo"
+        android:text="@string/btn2"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:onClick="consultapordescripcion"
+        android:text="@string/btn3"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:onClick="bajaporcodigo"
+        android:text="@string/btn4"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:onClick="modificacion"
+        android:text="@string/btn5"
+        android:textStyle="bold" />
+
+</LinearLayout>

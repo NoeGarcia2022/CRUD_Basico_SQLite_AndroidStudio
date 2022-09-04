@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Crud_Basico_SQLite</string>
+    <string name="edt1">Codigo del articulo</string>
+    <string name="edt2">Descripcion</string>
+    <string name="edt3">Precio</string>
+    <string name="btn1">ALTA</string>
+    <string name="btn2">CONSULTA POR CODIGO</string>
+    <string name="btn3">CONSULTA POR DESCRIPCION</string>
+    <string name="btn4">BAJA POR CODIGO</string>
+    <string name="btn5">MODIFICACION</string>
+</resources>
