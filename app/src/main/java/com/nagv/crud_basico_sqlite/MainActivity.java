@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             et2.setText(fila.getString(0));
             et3.setText(fila.getString(1));
         }else
-            Toast.makeText(this, "No existe un articuñlo con dicho codigo", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "No existe un articulo con dicho codigo", Toast.LENGTH_SHORT).show();
     bd.close();
     }
 
